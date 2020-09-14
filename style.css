@@ -37,19 +37,10 @@
     nav ul{
         flex-direction: column;
     }
-    #baniere_image{
-        display: none;
-    }
     nav li
     {
         padding-left: 4px;
     }
-    
-    nav a
-    {
-        font-size: 1.1em;
-    }
-    
     nav a:hover
     {
         border-bottom: 0;
@@ -66,12 +57,7 @@
         width: auto;
         margin-bottom: 15px;
     }
-    
-    #fleche_bulle
-    {
-        display: none;
-    }
-    
+ 
     #photo_zozor img
     {
         width: 110px;
@@ -86,7 +72,6 @@
     footer{
       display: flex;
       flex-direction: column;
-      flex-wrap: wrap;
     }
     #tweet{
         order: 1;
@@ -96,10 +81,6 @@
     }
     #mes_amis{
         order: 3;
-    }
-    #liste_amis{
-        display: flex;
-        flex-wrap: wrap;
     }
     #mes_amis ul li{
         margin: 1rem;
